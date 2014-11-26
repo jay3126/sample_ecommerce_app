@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby "2.1.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -15,6 +16,10 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 gem 'spree'
 gem 'thin'
+gem 'unicorn'
+
+gem 'rails_12factor', group: :production    #for Heroku integration
+gem 'pg', group: :production
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
