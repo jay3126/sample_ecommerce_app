@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem "therubyracer"
 gem "execjs"
+gem 'thin'
 
 gem 'spree', '2.4.1'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-4-stable'
